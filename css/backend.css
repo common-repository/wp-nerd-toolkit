@@ -1,0 +1,232 @@
+.wpnerd_help{
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	height: 100px;
+	width: 40px;
+	margin-top: -50px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	background-color: #0073AA;
+
+	-webkit-transition: all 1s ease;
+  	transition: all 1s ease;
+}
+#hilfe_text {
+	display: none;
+	flex-basis: 100%;
+	background-color: #fff;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.wpnerd_help:hover{
+	-webkit-filter: brightness(130%);
+  	filter: brightness(130%);
+  	cursor: pointer;
+}
+.wpnerd_help h3 {
+	color: #fff;
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	margin-left: 30px;
+	margin-top: 12px;
+	font-size: 30px;
+	cursor: pointer;
+}
+.id_eingabe input{
+	width: 90%;
+}
+#wpwrap {
+	background-color: #F3F6F8 !important;
+}
+#wpcontent {
+padding-left: 0px !important;
+}
+.wpnerd_logo {
+	height: 50px;
+}
+.wpnerd_mainwrap {
+	box-shadow: 0 1px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+	background-color: #fff;
+}
+.wpnerd_content {
+	margin: 0 auto;
+	text-align: left;
+	max-width: 45rem;
+	padding: 1.5rem;
+}
+.wpnerd_mainwrap h2 {
+	color: #23282d !important;
+	font-size: 1.25rem !important;
+	margin-left: auto;
+	margin-right: 0px;
+}
+.wpnerd_inner_row h3 {
+	color: #23282d !important;
+	font-size: 1rem !important;
+}
+.wp_nerd_inner {
+	display: flex;
+	flex-wrap: flex;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 45rem;
+}
+.wpnerd_left {
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+}
+.wpnerd_right {
+	width: 48%;
+	float: right;
+}
+.wpnerd_inner_row {
+	flex-basis: 100%;
+	display:flex;
+	background-color: #fff;
+	padding-left: 10px;
+}
+.wpnerd_description {
+	display: flex;
+	flex-basis: 100%;
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+	border-top: 1px solid;
+	border-color: rgba(68, 68, 68, 0.3);
+}
+#minify_options {
+	display: none;
+}
+#facebook_options {
+	display: none;
+}
+#analytics_options{
+	display: none;
+}
+#version_options{
+	display: none;
+}
+#querie_options {
+	display: none;
+}
+.emoji_options2 {
+	opacity: 1 !important;
+}
+#emoji_options {
+	display: none;
+	opacity: 1;
+	-webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -o-transition: all 5s;
+  -ms-transition: all 5s;       
+  transition: all 5s;
+}
+.wpnerd_optionen {
+	flex-basis: 100%;
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid;
+	border-color: rgba(68, 68, 68, 0.3);
+}
+.wpnerd_options .button {
+	margin-top: 5px;
+}
+.wpnerd_switch {
+	width: 60px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+.button-float {
+	float: right;
+	margin-right: 10px !important;
+}
+form { width: 100%;}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.wpnerd_console {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #000;
+	color: green;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wpnerd_warnung {
+	width: 100%;
+}
+#wpnerd_hilfe1 {
+	display: none;
+}
+#wpnerd_hilfe2{
+	display: none;
+}
+#wpnerd_hilfe3{
+	display: none;
+}
